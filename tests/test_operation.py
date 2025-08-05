@@ -9,3 +9,10 @@ def test_sub():
     assert sub(4,3)==1
     assert sub(3,3)==0
     assert sub(2,3)==-1
+
+def test_addition():
+    assert add(3,4)==7
+
+def test_substraction():
+    assert sub(3,4)==-1
+    assert sub(3,2)==1
